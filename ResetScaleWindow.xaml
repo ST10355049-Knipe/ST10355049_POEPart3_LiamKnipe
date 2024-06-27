@@ -1,0 +1,13 @@
+﻿<Window x:Class="ST10355049_POEPart3_LiamKnipe.ResetScaleWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Reset Scale" Height="300" Width="400">
+    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+        <Label Content="Select a recipe to reset:"/>
+        <ComboBox Name="RecipeComboBox" Width="200" Margin="5"/>
+        <Button Content="Reset Scale" Width="200" Margin="5" Click="ResetScaleButton_Click"/>
+        <Button Content="View Recipe" Width="200" Margin="5" Click="ViewRecipeButton_Click"/>
+        <Button Content="Return to Menu" Width="200" Margin="5" Click="ReturnToMenuButton_Click"/>
+    </StackPanel>
+</Window>
+

@@ -1,0 +1,17 @@
+﻿<Window x:Class="ST10355049_POEPart3_LiamKnipe.DeleteRecipeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Delete Recipe" Height="450" Width="800">
+    <Grid>
+        <Label Content="Select Recipe:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <ComboBox Name="RecipeComboBox" HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top" Width="120"/>
+
+        <Button Name="DeleteButton" Content="Delete" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top" Width="120" Click="DeleteButton_Click"/>
+
+        <!-- Return to Menu Button -->
+        <Button Name="ReturnToMenuButton" Content="Return to Menu" HorizontalAlignment="Left" Margin="10,108,0,0" VerticalAlignment="Top" Width="120" Click="ReturnToMenuButton_Click"/>
+
+        <!-- Exit Application Button -->
+        <Button Name="ExitButton" Content="Exit Application" HorizontalAlignment="Left" Margin="10,144,0,0" VerticalAlignment="Top" Width="120" Click="ExitButton_Click"/>
+    </Grid>
+</Window>
